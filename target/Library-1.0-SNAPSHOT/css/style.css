@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer, header{
+    display: flex;
+    justify-content: center;
+    background-color: #57CDFA;
+    color: white;
+    font-size: 20px;
+    height: 5vh;
+}
+.container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 330px;
+    height: 330px;
+    margin:auto;
+    background-color: #57CDFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#logo{
+    width: 150px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+}
+
+input{
+    padding: 3px 5px;
+    font-family: Arial;
+    border-radius: 10px;
+}
+button{
+    font-family: Arial;
+    padding: 3px 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #57CDFA;
+}
+
+button:hover{
+    background-color: aqua;
+}
